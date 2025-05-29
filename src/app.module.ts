@@ -19,7 +19,7 @@ import { SettingsModule } from './Dictionary Setting/settings.module';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: 'ami@123',
+      password: '123456',
       database: 'CURD',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       autoLoadEntities: true,
@@ -45,4 +45,4 @@ export class AppModule {
     this.logger.log('AppModule initialized');
     this.logger.log('Loaded modules: ItemModule, AuthModule, MailModule, VisitorModule, AppointmentModule, UsersModule, UserRolesModule, SettingsModule');
   }
-}
+} 
